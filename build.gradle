@@ -4,10 +4,10 @@ plugins {
     id 'com.github.johnrengelman.shadow' version '1.2.3'
 }
 
-group = 'muyinatech'
+group = 'mysolr'
 version = '0.0.1-SNAPSHOT'
 
-mainClassName = "fivium.search.App"
+mainClassName = "mysolr.searchapp.App"
 
 repositories {
 	mavenLocal()

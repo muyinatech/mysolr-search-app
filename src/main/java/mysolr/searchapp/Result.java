@@ -1,4 +1,4 @@
-package muyinatech.solr.searchapp;
+package mysolr.searchapp;
 
 public class Result {
 

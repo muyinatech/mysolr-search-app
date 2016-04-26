@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>fivium</groupId>
+    <groupId>mysolr</groupId>
     <artifactId>search-app</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -53,7 +53,7 @@
                                 <!-- add Main-Class to manifest file -->
                                 <transformer
                                         implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>muyinatech.solr.searchapp.App</mainClass>
+                                    <mainClass>mysolr.searchapp.App</mainClass>
                                 </transformer>
                                 <!-- required to ensure META-INF services file merges properly -->
                                 <!--<transformer-->

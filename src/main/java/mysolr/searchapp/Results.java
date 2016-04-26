@@ -1,7 +1,6 @@
-package muyinatech.solr.searchapp;
+package mysolr.searchapp;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import muyinatech.solr.searchapp.Result;
 
 import java.util.ArrayList;
 import java.util.List;

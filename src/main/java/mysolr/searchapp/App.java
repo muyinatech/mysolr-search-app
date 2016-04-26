@@ -1,4 +1,4 @@
-package muyinatech.solr.searchapp;
+package mysolr.searchapp;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.solr.client.solrj.SolrClient;

@@ -1,4 +1,4 @@
-package muyinatech.solr.searchapp;
+package mysolr.searchapp;
 
 import java.io.FileInputStream;
 import java.io.IOException;
