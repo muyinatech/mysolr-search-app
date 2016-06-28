@@ -8,9 +8,9 @@ import java.util.List;
 public class Results {
 
     @JsonProperty("results")
-    private List<Result> results = new ArrayList<>();
+    private final List<Result> results;
 
-    public List<Result> getResultList() {
+    public List<Result> getResults() {
         return results;
     }
 

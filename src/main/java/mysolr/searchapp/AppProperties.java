@@ -14,6 +14,7 @@ public class AppProperties {
     private final String field;
     private final String phraseSlop;
     private final String boostFunction;
+    private final String phraseFields;
 
     public AppProperties() throws IOException {
         Properties properties = new Properties();
@@ -26,6 +27,7 @@ public class AppProperties {
         phraseBoost = properties.getProperty("solr.pb");
         field = properties.getProperty("solr.fl");
         boostFunction = properties.getProperty("solr.bf");
+        phraseFields = properties.getProperty("solr.pf");
     }
 
     public String getSolrURL() {
@@ -58,5 +60,9 @@ public class AppProperties {
 
     public String getBoostFunction() {
         return boostFunction;
+    }
+
+    public String getPhraseFields() {
+        return phraseFields;
     }
 }
